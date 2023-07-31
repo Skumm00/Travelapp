@@ -1,0 +1,43 @@
+*{
+--main-color:#4e66f8;
+max-width:100%;
+}
+body{
+    max-width:100%;
+}
+body{
+    font-family:"Poppins",sans-serif !important;
+}
+.dropdown-item:hover{
+    color:var(--main-color) !important;
+    cursor:pointer;
+}
+.main-color{
+    color:var(--main-color) !important;
+}
+.dropdown-menu{
+    animation:.5s slideup;
+}
+
+@keyframes slideup{
+    from{
+        transform: translateY(10%);
+        opacity:0;
+    }
+    to{
+        transform:translateY(0%);
+        opacity:1;
+    }
+}
+#hero-home{
+    padding: 25px;
+}
+
+
+.col-10{
+padding:25px;
+
+}
+#book{
+    width:115px;
+}
